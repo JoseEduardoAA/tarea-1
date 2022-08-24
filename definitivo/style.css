@@ -12,16 +12,20 @@ ul {
     border: 2px solid blue;
     margin: 10px;
     padding: 5px;
+background-color: black;
 }
-
 .elemento {
     width: 80%;
     height: 10%;
     border: 2px solid blue;
     display: flex;
     justify-content: space-around;
-    margin: 10px;
-}
+    margin: 100px;
+        border: 10px solid rgb(185, 45, 45);
+        border-radius: 100px;
+          box-shadow: 30px -10px 1px rgb(86, 91, 124) ;
+    }
+
 
 img {
     width: 500px;
@@ -47,4 +51,10 @@ footer {
 
 body {
     background-color: rgb(18, 211, 153);
+}
+h1{
+    background-color: rgb(117, 207, 14);
+}
+footer{
+text-align: justify
 }
