@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Pagina Estilos</title>
+    <style>
+        tr {
+            background-color: rgb(255, 235, 235);
+            color: rgb(216, 0, 36);
+            height: 50px;
+        }
+
+        h1 {
+            border: 2px solid rgb(0, 0, 0);
+            padding: 100px rgb(0, 0, 0);
+            margin: 50px;
+        }
+
+        table {
+            height: 700px;
+            width: 1000px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 0.05em;
+        }
+
+        td {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        sec-azul {
+            background-color: blue;
+        }
+
+        section>article>p {
+            background-color: rgb(186, 206, 206);
+        }
+
+        h2 {
+            background-color: aquamarine;
+        }
+
+        h1 {
+            background-color: aqua;
+        }
+
+        form {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            border: 50px;
+        }
+
+        div {
+            color: rgb(9, 182, 101);
+            padding: 25px;
+        }
+
+        .contenedor {
+            width: 70%;
+            height: 20%;
+            border: 2px solid blue;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .elemento {
+            width: 50px;
+            height: 60px;
+            border: 2px solid rgb(105, 105, 117);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href=""></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+        <a href="html/lenguajeCSS.html">CSS</a>
+        <h1>
+            <center> Desarrollo Web
+        </h1>
+        </center>
+        <p>Notas del Curso desarrollo web PILARES</p>
+    </header>
+
+    <main>
+        <section>
+        </section>
+        <h2><em> HTML </h2></em>
+        <center>
+            <p> Hypertext Narkup Languaje (HTML), es un lenguaje de marcado cuyas caractristicas son ...
+        </center>
+        </p>
+        <h2><em> Sintaxis HTML </h2></em>
+        <center>
+            <p>&lt; nombre <span style="color:blue ;"> atributo = "valor"</span>
+                <span style="color:red ;"> &gt; </span>
+            </p>
+        </center>
+        <b>Texto en negritas</b> <br>
+        <em>Texto en cursiva</em> <br>
+        <strong>Texto con mayor importancia</strong> <br>
+        <i>Texto que no se que hace</i><br>
+        <h1>
+            <center>Estructura Basica de HTML</center>
+        </h1>
+        <center>&lt; !DOCTYPE html &gt; <br>
+            &lt;html lang="en"&gt; <br>
+            &lt;head &gt; <br>
+            &lt;title &gt;Document &lt;/title &gt;<br>
+            &lt;/head &gt; <br>
+            &lt;body &gt; <br>
+            <p></p>
+            &lt;/body &gt; <br>
+            &lt;/html &gt;
+        </center>
+        </section>
+    </main>
+    <ul></ul>
+    <h1>
+        <center>Tabla de Etiquetas</center>
+    </h1>
+    <section>
+        <article>
+            <h2>PRUEBA </h2>
+            <p>PARRAFO</p>
+        </article>
+        <p>PRUEBA</p>
+    </section>
+    <table>
+        <tr>
+            <td>Encabezado</td>
+            <td>
+                <center> Etiqueta
+            </td>
+            </center>
+            <td>Atributo</td>
+            <td>
+                <center> Ejemplo
+            </td>
+            </center>
+        </tr>
+        <tr>
+            <td>
+                <center> Encabezados
+            </td>
+            </center>
+            <td>
+                <center> h1...h6
+            </td>
+            </center>
+            <td>-</td>
+            <td>&lt;h1&gt;Encabezado principal &lt;/h1&gt;</td>
+        </tr>
+        <tr>
+            <td>
+                <center> Enlaces
+            </td>
+            </center>
+            <td>
+                <center> a
+            </td>
+            </center>
+            <td>href target</td>
+            <td>&lt;a href="https://www..." target"=_blank"&gt;&lt;/a&gt;</td>
+        </tr>
+        <tr>
+            <td>
+                <center> Bloque
+            </td>
+            </center>
+            <td>
+                <center> p
+            </td>
+            </center>
+            <td>"p"</td>
+            <td>&lt;p &gt; Lorem ipsum dolor &lt;/p&gt;</td>
+        </tr>
+        <tr>
+            <td>
+                <center> Imagenes
+            </td>
+            </center>
+            <td>
+                <center>img
+            </td>
+            </center>
+            <td>img src </td>
+            <td>&lt;img src="tu imagen.jpg" alt=""&gt; </td>
+        </tr>
+        <tr>
+            <td>
+                <center> Vieo
+            </td>
+            </center>
+            <td>
+                <center> video
+            </td>
+            </center>
+            <td>video src</td>
+            <td>&lt;video src="tu video.mp4"&gt;&lt;/video&gt;</td>
+        </tr>
+        <tr>
+            <td>
+                <center> Audio
+            </td>
+            </center>
+            <td>
+                <center> audio
+            </td>
+            </center>
+            <td>audio src</td>
+            <td>&lt;audio src="tu audio.mp3"&gt;&lt;/audio&gt;</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <center> ul, li
+            </td>
+            </center>
+            <td>ul, li</td>
+            <td>&lt;ul&gt;&lt;/ul&gt; &lt;li&gt;/li&lt;&gt;</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <center> ol
+            </td>
+            </center>
+            <td>ol</td>
+            <td>&lt;ol&gt;&lt;/ol&gt;</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>table, tr, td</td>
+            <td>
+                <center> table, tr, td
+            </td>
+            </center>
+            <td>&lt;table&gt;&lt;/table&gt;&lt;tr&gt;&lt;/tr&gt;&lt;td&gt;&lt;/td&gt;</td>
+        </tr>
+    </table>
+    </section>
+    <form>
+        <div class="contenedor">
+            <div>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo">
+                </div>
+                <div>
+                    <label for="tel">Telefono</label>
+                    <input type="text" id="tel">
+                </div>
+            </div>
+            <div>
+
+                <div>
+                    <input type="radio" id="si" name="pago">
+                    <label for="si">Si</label>
+                </div>
+                <div>
+                    <label for="calle">Calle</label>
+                    <input type="text" id="calle">
+                </div>
+
+                <div>
+                    <label for="delegacion">Delegacion</label>
+                    <input type="text" id="Delegacion">
+                </div>
+                <div>
+                    <input type="submit" id="Send">
+                    <label for="Send"></label>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </form>
+</body>
+</head>
+
+</html>
