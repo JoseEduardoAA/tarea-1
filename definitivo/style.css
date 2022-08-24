@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+}
+
+ul {
+    text-align: center;
+}
+
+.contenedor {
+    width: 600px;
+    height: 40px;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 5px;
+}
+
+.elemento {
+    width: 80%;
+    height: 10%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+img {
+    width: 500px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 50px;
+}
+
+footer {
+    text-align: justify;
+    display: flex;
+    width: 60%;
+    height: 10%;
+    display: flex;
+
+}
+
+body {
+    background-color: rgb(18, 211, 153);
+}
